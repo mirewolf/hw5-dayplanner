@@ -1,0 +1,90 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color:rgb(174, 177, 175);
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+  padding-bottom: 3%;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.hour {
+  background-color: #e0d49b;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #1a523d;
+  color: rgb(52, 21, 82);
+}
+
+.present {
+  background-color:#371655;
+  color: rgb(52, 21, 82);
+}
+
+.future {
+  background-color: #9bd5ec;
+  color: rgb(11, 10, 97);
+}
+
+.saveBtn {
+  border-left: 1px solid darkblue;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: gray;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+#currentDate {
+    border: solid black;
+    padding: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: rgb(213, 216, 201);
+  }
+  
+  #currentTime {
+    border: solid black;
+    padding: 10px;
+    margin-left: 38%;
+    margin-right: 38%;
+    background-color: rgb(213, 216, 201);
+    text-align: center;
+  }
+  
+  textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    color: white;
+    border-left: 1px solid darkslateblue;
+    padding: 10px;
+  }
+  
